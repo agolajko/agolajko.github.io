@@ -1,10 +1,10 @@
 // the used links
 var links = [
-	"https://agolajko.typeform.com/to/JuQv2J",
-    "https://agolajko.typeform.com/to/BIAP5m",
-    "https://agolajko.typeform.com/to/Y05SUM",
-    "https://agolajko.typeform.com/to/DucjRG",
-    "https://agolajko.typeform.com/to/txCdk3"];
+	"agolajko.typeform.com/to/JuQv2J",
+    "agolajko.typeform.com/to/BIAP5m",
+    "agolajko.typeform.com/to/Y05SUM",
+    "agolajko.typeform.com/to/DucjRG",
+    "agolajko.typeform.com/to/txCdk3"];
 
 openStuff = function () {
     // get a random number between 0 and the number of links
