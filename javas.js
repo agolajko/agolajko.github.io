@@ -1,10 +1,12 @@
 // the used links
-var links = [
+var links = ["https://forms.gle/BVDXktFnFsApmpPn6"];
+
+/*
 	"agolajko.typeform.com/to/JuQv2J",
     "agolajko.typeform.com/to/BIAP5m",
     "agolajko.typeform.com/to/Y05SUM",
     "agolajko.typeform.com/to/DucjRG",
-    "agolajko.typeform.com/to/txCdk3"];
+    "agolajko.typeform.com/to/txCdk3"];*/
 
 openStuff = function () {
     // get a random number between 0 and the number of links
