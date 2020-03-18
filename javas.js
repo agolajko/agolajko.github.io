@@ -12,7 +12,7 @@ openStuff = function () {
     // round it, so it can be used as array index
     randIdx = parseInt(randIdx, 10);
     // construct the link to be opened
-    var link = 'http://' + links[randIdx];
+    var link = 'links[randIdx];
     // open it in a new window / tab (depends on browser setting)
     window.open(link);
 };
