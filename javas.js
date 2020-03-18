@@ -1,5 +1,5 @@
 // the used links
-var links = ["https://forms.gle/BVDXktFnFsApmpPn6"];
+var links = ["forms.gle/BVDXktFnFsApmpPn6"];
 
 /*
 	"agolajko.typeform.com/to/JuQv2J",
