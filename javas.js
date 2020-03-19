@@ -1,5 +1,9 @@
 // the used links
-var links = ["forms.gle/BVDXktFnFsApmpPn6"];
+var links = [	"forms.gle/egSVEZuKf14CqD469" , //0th form
+		 "forms.gle/BVDXktFnFsApmpPn6" //1st
+		"forms.gle/5c97PhyWD9dGcF4Q9", //2nd
+		"forms.gle/GUz2WGuSz4jxqgFD8" //3rd
+	];
 
 /*
 	"agolajko.typeform.com/to/JuQv2J",
