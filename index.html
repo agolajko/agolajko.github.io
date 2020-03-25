@@ -26,7 +26,7 @@
 
 <div>
 <div>
-<img class="test" src="ago_lajko_profile.jpg"/>
+<img id="profile" class="test" src="ago_lajko_profile.jpg" alt="headshot of Ago" title=alt_link>
 </div>
 <br/>
 <div>
@@ -45,6 +45,13 @@
 <br/>
 
 My runs on <a href="https://www.strava.com/athletes/47783507"> Strava</a>
+
+<script>
+	var alt_num = Math.floor(Math.random() * 2500) + 1;
+	var alt_link = "https://xkcd.com/"+ alt_num.toString()
+	document.getElementById("profile").title = alt_link
+</script>
+
 
 <br/>
 </html>
