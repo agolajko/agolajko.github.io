@@ -25,19 +25,13 @@ h2 {
   font-size: 25px;
 }
 
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
   img{
-      width: 100%;
+      width: 60%;
       height: auto;
-  }
-
+    }
 }
 
-
-img{
-    width: 33%;
-    height: auto;
-}
 
 a {
   text-decoration:none
