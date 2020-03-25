@@ -1,0 +1,43 @@
+
+
+  @font-face {
+    font-family: "Computer Modern";
+    src: url('cmunbmr.otf');
+  }
+
+
+  body {
+    font-family: "Computer Modern";
+  }
+
+h1 {
+  margin-bottom:10px
+  text-align: center;
+  font-size: 36px;
+}
+
+h2 {
+  margin-right:10px;
+  display:inline-block;
+  text-align: center;
+  font-size: 25px;
+}
+
+body {
+  text-align:center;
+  font-size: 15px;
+}
+
+img.test {
+    width: 30%;
+    height: auto;
+}
+
+a {
+  text-decoration:none
+}
+
+a.inactiveLink {
+   pointer-events: none;
+   cursor: default;
+}
