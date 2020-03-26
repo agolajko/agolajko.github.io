@@ -1,12 +1,14 @@
 
 
-  @font-face {
-    font-family: "Computer Modern";
-    src: url('cmunbmr.otf');
-  }
+@font-face {
+  font-family: "Computer Modern";
+  src: url('cmunbmr.otf');
+}
 
 
-  body {
+body {
+    margin-left: 18%;
+    margin-right: 18%;
     text-align:center;
     font-size: 15px;
     font-family: "Computer Modern";
@@ -25,14 +27,6 @@ h2 {
   font-size: 25px;
 }
 
-@media (max-width: 600px) {
-  img{
-      width: 60%;
-      height: auto;
-    }
-}
-
-
 a {
   text-decoration:none
 }
@@ -40,4 +34,31 @@ a {
 a.inactiveLink {
    pointer-events: none;
    cursor: default;
+}
+
+p.blog {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  width: 70%;
+}
+
+@media (max-width: 600px) {
+  img{
+      width: 60%;
+      height: auto;
+    }
+
+  p.blog {
+    margin-left: 0%;
+    margin-right: 0%;
+    text-align: left;
+    width: 100%;
+    }
+}
+
+p.shrug{
+  font-size: 900%;
+  line-height: 1%;
+  height: 1%;
 }
