@@ -57,6 +57,32 @@ p.shrug{
   height:auto;
 }
 
+img.blog{
+  width: 80%;
+  height: auto;
+}
+
+div.img_blog{
+  margin:5%;
+  height: 50%;
+}
+
+div.img_row {
+  display: flex;
+  align-items: center;
+}
+
+div.img_column {
+  flex: 50%;
+  padding: 5px;
+}
+
+#img_airy{
+  width: 10%;
+  height: auto;
+}
+
+
 @media (max-width: 600px) {
   #profile{
       width: 40%;
@@ -70,4 +96,14 @@ p.shrug{
     text-align: left;
     width: 140%;
     }
+  img.blog{
+    margin-left: -20%;
+    margin-right: 0%;
+    width: 140%;
+    height: auto;
+  }
+
+  div.img_column {
+    width: 140%;
+  }
 }
