@@ -30,13 +30,18 @@ h2 {
 
 }
 
+
 a {
-  text-decoration:none
+  text-decoration:none;
+  opacity: 0.9;
+
 }
 
 a.inactiveLink {
    pointer-events: none;
    cursor: default;
+   opacity: 0.9;
+
 }
 
 p.blog {
@@ -86,6 +91,29 @@ div.img_column {
   height: auto;
 }
 
+
+/* dark mode toggled by js script */
+.dark-mode {
+  background-color: #282c35;
+  color: white ;/*#FFA7C4;*/
+  opacity: 0.8;
+
+}
+
+/* button for dark mode */
+button {
+  background-color: #FFE4B5;
+  width: 50px;
+  height: 50px;
+  border:none;
+
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 15px;
+  right: 15px;
+
+}
 
 @media (max-width: 600px) {
   #profile{
