@@ -41,7 +41,6 @@ a {
 a.inactiveLink {
    pointer-events: none;
    cursor: default;
-   opacity: 0.9;
 
 }
 
@@ -138,5 +137,17 @@ button {
 
   div.img_column {
     width: 140%;
+  }
+}
+
+
+@media (prefers-color-scheme: dark) {
+
+  body{background-color: #282c35;
+  color: white ;/*#FFA7C4;*/
+  opacity: 0.8;
+  }
+  button{
+    display: none;
   }
 }
